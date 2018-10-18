@@ -7,7 +7,7 @@ public class HelloWorld {
         System.out.println("Hello world. args: " + Arrays.asList(args));
 
         Integer num = 3;
-        System.out.println("Twice " + num + " is " + twice(num));
+        System.out.println("Twice of " + num + " is " + twice(num));
     }
 
     public  static Integer twice(Integer input){
